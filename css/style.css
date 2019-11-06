@@ -1,0 +1,127 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+ }
+
+ .container{
+ 	padding:0px;
+ 	margin: 0px;
+ }
+
+header{
+	
+	
+	padding: 60px;
+	margin: 0px;
+    background-image: url('../images/banner_3.jpg');
+    background-size: auto;
+    background-repeat: all;
+    opacity: 0.8;
+}
+header h1{
+	color: 	white;
+	padding: 30px;
+	margin: 10px;
+}
+
+
+body{
+	background-color: grey;
+	
+}
+
+a {
+	text-decoration:none;
+}
+
+.form{
+	padding:20px;
+	margin: 15px;
+}
+
+#input{ padding:15px;
+	   border-radius: 20px;
+       width:600px;
+       border:1px groove grey;
+}
+
+h1{
+	font-size: 80px;
+}
+
+#map{
+	width:50%;
+    height: 300px;
+    margin: 15px;
+    float:right;
+    
+}
+#map_d {
+	float:right;
+	text-align: left;
+	margin-right: 50px;
+	padding: 20px; 
+}
+#submit 
+{
+	border-radius: 10px;
+	background-color: #6200ee;
+	width:150px;
+	margin:20px;
+	padding:10px;
+	color:white;
+}
+
+footer a{
+	color:white;
+}
+
+footer{
+	
+	background-color: #620dee;
+	width: 100%;
+	color: white;
+	padding:10px;
+    clear: both;
+ }
+.body{
+	padding:20px;
+	margin: 10px;
+}
+form{
+	padding:
+	20px;
+	margin: 50px 50px;
+}
+nav{
+	margin: 20px 30px;
+	
+	}
+	nav a{
+		color:white;
+	}
+
+	@media all and (max-width: 768px){
+		
+		body{
+			min-width: 400px;
+			min-height: 100%;
+
+		}
+		
+		.body{
+			padding: 20px;
+			margin:10px;
+		}
+	   
+	    .footer{
+	   	  margin-top: 100px;
+	   	  padding: 100px;
+	   }
+	}
+
+	.arrow{
+		color:white;
+	}
