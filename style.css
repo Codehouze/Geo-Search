@@ -104,22 +104,32 @@ nav a{
 }
 .btnC{
 	padding: 10px 15px;
-	background-color: white;
+	background-color: blue;
 	float: right;
-	color:blue;
+	color:white;
 	margin-right: 3px;
 	color:white;
 	border-radius: 10px;
 }
 
+.btnC:hover{
+	background-color:white;
+	color:blue;
+}
+.btn:hover{
+	background-color:white;
+	color:blue;
+}
+
 
 .feedback #card .card{
-	background-color: black;
+	 background-image: url('../images/banner_3.jpg');
 	border-radius: 10px;
 	width: 45%;
 	padding: 20px;
 	margin-left:0px;
-	margin-right:0px; 
+	margin-right:0px; \
+	opacitiy:0.8;
     float:left;}
 
 .feedback #map{
