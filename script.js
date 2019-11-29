@@ -21,7 +21,7 @@ const cardP = document.getElementById('card');
  // Decleared varriables
     const location = document.getElementById('mapsearch').value 
       let  APIKEY='0c877e7587a0a277cf708cad32da7bdc';
-        let  url='http://api.openweathermap.org/data/2.5/find?q='+ location;
+        let  url='https://api.openweathermap.org/data/2.5/find?q='+ location;
         let  mainObj={};
 
        
