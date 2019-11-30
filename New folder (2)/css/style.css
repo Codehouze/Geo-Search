@@ -102,16 +102,25 @@ nav a{
 	color:white;
 	border-radius: 10px;
 }
+.btn:hover{
+	background-color: white;
+	border-color: blue;
+	color:blue;
+}
 .btnC{
 	padding: 10px 15px;
-	background-color: white;
+	background-color: blue;
 	float: right;
-	color:blue;
+	color:white;
 	margin-right: 3px;
 	color:white;
 	border-radius: 10px;
 }
-
+.btnC:hover{
+	background-color: white;
+	border-color: blue;
+	color:blue;
+}
 
 .feedback #card .card{
 	background-color: black;
