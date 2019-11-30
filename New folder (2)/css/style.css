@@ -177,6 +177,15 @@ nav a{
 	padding:10px;
 	color:white;
 }
+#submit:hover
+{
+	border-radius: 10px;
+	background-color: #f0f1f0f1;
+	width:150px;
+	margin:20px;
+	padding:10px;
+	color:#6200ee;
+}
 .feedback{
 		
 }
@@ -189,7 +198,8 @@ nav a{
 
 }
 .pac-container{
-	background-color: #6200ee;
+	background-color: #f0f1f0f1;
+
 }
 
 
