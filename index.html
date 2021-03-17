@@ -9,12 +9,13 @@
 	
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-gl-js/v0.4.0/mapquest-gl.css"/>
+	<link rel="shortcut icon" type="image/jpg" href="images/logo.png"/>
 
    <!-- <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">-->
-</head>
+ </head>
 <body>
 	
-	<div id="fb-root"></div>
+<div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=157641611505789&autoLogAppEvents=1"></script>
 
 <div class='container'>	
@@ -22,52 +23,37 @@
 
       	<h1><img src="	images/logo.png" alt="logo" width="	60px" >Geo-Search	</h1>
   	
-
-	 </header>
+    </header>
 		
-			<center>
-				<form method="post" action="" id='form'>
-			
-					
-					<input type="text"  id="mapsearch" placeholder=" Search your City or State here" focus=""><br>	
+	<center>
+			<form method="post" action="" id='form'>
+				<input type="text"  id="mapsearch" placeholder=" Search your City or State here" focus=""><br>	
 
-					<i class="fas fa-search"><input type="submit" name="submit" value="Get Weather" id="submit" ></i>
+				<i class="fas fa-search"><input type="submit" name="submit" value="Get Weather" id="submit" ></i>
 
 			</form>
-			</center>
+	</center>
 			<div class='feedback'>
-       		  <div id='map'>
-       	
-      		 </div>
+       		  <div id='map'></div>
 
-     		  <div id="card">
-     		  
-       	
-       		  </div>
-
+     		  <div id="card"></div>
 
        		  <div class="fb-share-button" data-href=" https://codehouze.github.io/Geo-xearch_maxwell/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-
-       		 
-       		  
+	  
 </div>
 	<footer class="footer">
-			<center>Powered by <a href="https://github.com/Codehouze">Codehouze</a>
+		<center>Powered by <a href="https://github.com/Codehouze">Codehouze</a>
 				<a href="#"><img src="images/facebook.png" width="20px" height="15px" alt="fb"></a>
 				<a href="#"><img src="images/images.png" width="20px" height="15px" alt="fb"></a>
-				</center>
+		</center>
 	</footer>
 
 
 </body>
 <script src="js/script.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDguopZPGXR2U8RGWIvmDOyXAgqjWTZswg&libraries=places&callback=autoComplete"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkqMXQhMJwYRSvhQ1_-qS_FpV7-NbZFf8&libraries=places&callback=autoComplete"></script>
 <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaYVMNSwlkhO2wCOvEyBX_oxMhiRhxtZ4&callback=initMap"
     async defer></script>-->
 <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest-maps.js"></script>
-
-
-	
-
 
 </html>
