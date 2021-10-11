@@ -2,7 +2,7 @@
 const button = document.getElementById('submit');
 const form = document.getElementById('form');
 const cardP = document.getElementById('card');
-const access = "AIzaSyAkqMXQhMJwYRSvhQ1_-qS_FpV7-NbZFf8";
+const access = "AIzaSyCFWf34DtUc3L6Y4VNMgkFkNuSY2EgF-rc";
 
 function autoComplete() {
   let input = document.getElementById('mapsearch');
@@ -98,7 +98,7 @@ button.addEventListener('click', ($event) => {
     card.appendChild(lsHumidity);
     card.classList.add('card');
     main.appendChild(card);
-    console.log(card);
+//     console.log(card);
     return card;
 
   }
